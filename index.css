@@ -1,0 +1,38 @@
+*{
+  margin: 1px;
+  background-color: black;
+}
+
+.container{
+  /*border: 5px solid orange;*/
+  display: flex;
+}
+
+
+.container > div {
+  width: 100px;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 12;
+  color: #ffeead;
+  background-color:rgb(180, 96, 96);
+  border: 4px solid rgb(204, 204, 255);
+}
+.container > div{
+  flex: 1;
+
+}
+#frontPageImage{
+  display: flex;
+  background-size: cover;
+  border-radius: 8px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Title{
+  color: #ffeead;
+  font-size: 30px;
+  stroke: aqua;
+  text-align: center;
+}
